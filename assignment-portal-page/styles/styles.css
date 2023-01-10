@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root {
+    --body-font: "Arial", "Times New Roman";
+    --headline-font: "Courier New", "Verdana", "Tahoma", "Georgia ";
+}
+
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    max-width: 900px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    line-height: 2em;
+    background-color: #fff;
+}
+header {
+    background-color: darksalmon;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 50px;
+    padding: 25px 25px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 1.2em;
+ 
+}
+img {
+    
+    width: 100%;
+    grid-column: 1/2;
+    box-shadow: 5px 5px 10px #6f7364;
+
+    
+}
+
+h1 {
+    font-size: 35px;
+    grid-column: 2/5;
+    text-align: center;
+}
+
+.line-1 {
+    height: 1px;
+    background: black;
+  }
+
+h3 {
+    grid-column: 5/7;
+    text-align: center;
+    font-size: 30px;
+}
+main h2 {
+    font-size: 30px;
+    text-align: center;
+    
+}
+main ul li a {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: darksalmon;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.2em;
+
+}
+footer p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#demo, .demo {
+    font-size: 20px;
+    text-align: center;
+    color: darkcyan ;
+}
