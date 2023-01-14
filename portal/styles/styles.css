@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-
-:root {
-    --body-font: "Arial", "Times New Roman";
-    --headline-font: "Courier New", "Verdana", "Tahoma", "Georgia ";
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&family=Montserrat&display=swap');
 
 
-.content {
-    max-width: 1600px;
+
+
+
+
+/* .content {
+    max-width: 900px;
     margin: 0 auto;
-}
+} */
 
 body {
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -24,7 +23,7 @@ body {
 header {
     background-color: darksalmon;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px;
     padding: 25px 25px;
     box-shadow: 5px 5px 10px #6f7364;
@@ -43,8 +42,9 @@ img {
 h1 {
     font-size: 45px;
     grid-column: 2/6;
-    text-align: left;
-    padding-top: 25px;
+    text-align: center;
+    padding-top: 50px;
+font-family: 'Libre Baskerville', serif;
 }
 
 .line-1 {
@@ -55,6 +55,7 @@ h1 {
 main h2 {
     font-size: 30px;
     text-align: center;
+  font-family: 'Libre Baskerville', serif;
     
 }
 main ul li a {
@@ -81,5 +82,6 @@ footer {
 }
 .p {
     color: blue;
+  font-family: 'Montserrat', sans-serif;
 }
 
