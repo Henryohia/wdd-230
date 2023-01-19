@@ -1,0 +1,34 @@
+@media only screen and (min-width: 32.5em) {
+    h1 {
+        font-size: 45px;
+    }
+    img {
+    
+        width: 100%;
+        box-shadow: 5px 5px 10px #6f7364;    
+    }
+    h2 {
+        font-size: 30px;
+      
+    }
+    header {
+        background-color: darksalmon;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        box-shadow: 5px 5px 10px #6f7364;
+        border-radius: 1.2em;
+        text-shadow: 5px 5px 10px #6f7364;
+     
+    }
+    footer {
+        background-color: darksalmon;
+        text-shadow: 5px 5px 10px #6f7364;
+        display: flex;
+        border-radius: 1.2em;
+    }
+
+
+
+
+
+}
