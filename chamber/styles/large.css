@@ -4,6 +4,7 @@
     color: var(--headline-color-on-color);
     justify-content: space-around;
     font-size: 1.3rem;
+    border-top: none;
   }
 
   nav ul {
