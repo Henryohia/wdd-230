@@ -1,45 +1,50 @@
 body {
-    max-width: 500px;
+  max-width: 500px;
 }
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: papayawhip;
-    padding: 10px 10px;
-    width: 900px;
-    border-radius: .6em;
-    /* font-size: .8em; */
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: papayawhip;
+  padding: 10px 10px;
+  width: 900px;
+  border-radius: 0.6em;
+  /* font-size: .8em; */
 }
 
 section {
-    justify-content: space-around;
-    padding: 10px;
+  justify-content: space-around;
+  padding: 10px;
 }
 
 section h1 {
-    background-color: darkslateblue;
-    font-family: 'Libre Baskerville', serif;
-    text-shadow: 5px 5px 10px #6f7364;
-    color: #fff;
+  background-color: darkslateblue;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 5px 5px 10px #6f7364;
+  color: #fff;
 }
 
 h2 {
-    /* background-color: darkslateblue; */
-    font-family: 'Libre Baskerville', serif;
-    text-shadow: 5px 5px 10px #6f7364;
+  /* background-color: darkslateblue; */
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 5px 5px 10px #6f7364;
 }
 
 img {
-    width: auto;
-    box-shadow: 5px 5px 10px #6f7364;;
+  width: auto;
+  box-shadow: 5px 5px 10px #6f7364;
 }
 p {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-header, footer {
-    background-color:burlywood;
-    text-shadow: 5px 5px 10px #6f7364;
-    border-radius: 1em;
-    width: 1000px;
-    color: #fff;
+header,
+footer {
+  background-color: burlywood;
+  text-shadow: 5px 5px 10px #6f7364;
+  border-radius: 1em;
+  width: 1000px;
+  color: #fff;
+}
+
+#lastModified {
+  color: darkslategray;
 }

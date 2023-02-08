@@ -1,6 +1,5 @@
 let text = document.lastModified;
-document.getElementById("demo").innerHTML = text;
-
-let result = text.fontcolor("red");
-document.getElementById("demo").innerHTML = result;
-
+document.getElementById("lastModified").innerHTML = text;
+document.querySelector(
+  "#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
