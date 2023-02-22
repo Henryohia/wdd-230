@@ -134,4 +134,7 @@
   .sub-base {
     display: contents;
   }
+  hr {
+    display: none;
+  }
 }
