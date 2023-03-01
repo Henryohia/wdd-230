@@ -66,6 +66,7 @@ if (day == "Monday" || day == "Tuesday") {
     "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
   header.appendChild(para);
   para.style.backgroundColor = "tomato";
+  para.style.color = "black";
   para.style.position = "absolute";
   para.style.top = "0";
   para.style.width = "100%";

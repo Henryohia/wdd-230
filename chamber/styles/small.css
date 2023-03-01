@@ -128,6 +128,7 @@ nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
+  font-weight: bold;
   color: #333;
   border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
@@ -142,6 +143,7 @@ nav ul li a {
 main section {
   background-color: var(--accent3-color);
   color: var(--headline-color-on-color);
+  font-weight: bold;
   height: 200px;
   margin-top: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -184,5 +186,6 @@ footer {
 header,
 footer {
   color: var(--headline-color-on-color);
+  font-weight: bold;
   background-color: var(--primary-color);
 }
