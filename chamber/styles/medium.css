@@ -18,6 +18,14 @@
   .date {
     grid-column: 1/7;
   }
+  .header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  #hamburgerBtn :nth-child(1) {
+    margin-top: -10px;
+  }
 
   .main {
     display: grid;
@@ -25,15 +33,23 @@
     grid-gap: 10px;
     margin-bottom: 10px;
   }
-
+  #hero {
+    grid-column: 1/6;
+  }
+  #hero h1 {
+    position: relative;
+  }
+  .button-box {
+    float: right;
+    margin-top: 40px;
+  }
   .hero-img {
     grid-column: 1/6;
   }
   .n {
     grid-column: 1/6;
     grid-row: 2/3;
-    display: flex;
-    grid-gap: 10px;
+    display: block;
   }
 
   .spot {
@@ -53,6 +69,12 @@
   }
   .e {
     grid-column: 1/4;
+  }
+  .e h2 {
+    margin: 0;
+  }
+  .e h3 {
+    margin-top: 10px;
   }
   .w {
     grid-column: 4/6;
@@ -78,6 +100,7 @@
   .info {
     grid-column: 4/6;
     margin-right: 50px;
+    margin-top: 25px;
   }
   .base {
     grid-column: 1/6;
@@ -103,9 +126,9 @@
   .lastModified {
     grid-row: 2;
   }
-  h3:after {
+  /* h3:after {
     content: " \007C";
-  }
+  } */
   .sub-base p:after {
     content: " \007C";
   }

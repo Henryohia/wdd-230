@@ -45,6 +45,11 @@ header {
 .header {
   display: flex;
   grid-gap: 10px;
+  margin: 20px 0 0 0;
+}
+.header h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
 }
 .date {
   margin: 0.5rem;
@@ -133,6 +138,9 @@ nav ul li a {
   border-top: 1px solid rgb(0, 0, 0, 0.5);
 }
 
+#more {
+  display: none;
+}
 /* ****************************************** */
 
 .main {
@@ -141,14 +149,24 @@ nav ul li a {
 }
 
 main section {
-  background-color: var(--accent3-color);
-  color: var(--headline-color-on-color);
-  font-weight: bold;
-  height: 200px;
+  /* background-color: var(--accent2-color); */
+  color: var(--nav-link-color);
+  /* font-weight: bold; */
+  height: 250px;
   margin-top: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* border: 1px solid rgba(0, 0, 0, 0.3); */
   text-decoration: solid;
   padding: 10px;
+}
+h2 {
+  text-align: center;
+}
+section.e,
+section.w,
+section.n,
+section.j,
+section.spot {
+  background-color: var(--secondary-color);
 }
 
 .spot {
@@ -189,3 +207,116 @@ footer {
   font-weight: bold;
   background-color: var(--primary-color);
 }
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15px;
+}
+
+#hero-box {
+  grid-column: 1/3;
+  grid-row: 1;
+  z-index: -1;
+}
+
+#hero-msg {
+  grid-column: 1/3;
+  grid-row: 1;
+  margin-top: 0;
+}
+main section h1.home-title {
+  color: tomato;
+  text-shadow: 5px 5px 10px #6f7364;
+}
+main .button-box {
+  background-color: tomato;
+  width: max-content;
+  padding: 10px;
+  border-radius: 1rem;
+  text-shadow: 5px 5px 10px #6f7364;
+}
+
+main figure.hero {
+  width: 100%;
+  /* border: 1px red dashed; */
+  margin: 0 0 0 0;
+  /* height: 250px; */
+}
+main figure.hero img {
+  width: 100%;
+  height: 250px;
+}
+
+section.j {
+  display: none;
+}
+
+section .sp1 {
+  display: block;
+}
+section .sp2 {
+  display: block;
+}
+section .sp1 h3,
+figure.so,
+p,
+a,
+hr {
+  margin: 0;
+  text-align: center;
+}
+section .sp2 h3,
+figure.uba,
+.uba,
+p,
+a,
+hr {
+  margin: 0;
+  text-align: center;
+}
+section .sp1 figure.so img {
+  width: 50%;
+}
+section,
+section .sp1,
+.sp2 {
+  box-shadow: 5px 5px 10px #6f7364;
+}
+section .sp1 p,
+a,
+hr {
+  font-weight: bold;
+}
+section .sp2 p,
+a,
+hr {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+section .w h2 {
+  text-align: center;
+  margin: 5px;
+}
+section .weather1 img {
+  width: 50%;
+  float: left;
+  margin-top: -60px;
+  mix-blend-mode: overlay;
+}
+
+#myBtn {
+  background: grey;
+}
+
+/* clearfix: force an Element not to collapse */
+/* .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+/* section.spot section #sp3 {
+  display: none;
+} */

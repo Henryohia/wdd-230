@@ -75,3 +75,21 @@ if (day == "Monday" || day == "Tuesday") {
   para.style.textAlign = "center";
   para.style.fontWeight = "bold";
 }
+
+// More info btn
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "more info";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "less info";
+    moreText.style.display = "inline";
+  }
+}

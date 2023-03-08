@@ -26,10 +26,10 @@
           <picture>
             <img class="logo-img" src="images/rsz_1a.png" alt="logo" />
           </picture>
-          <section class="headings">
+          <div class="headings">
             <h1>Access Chamber</h1>
             <q class="m">Chamber of Commerce</q>
-          </section>
+          </div>
         </div>
         <div class="social">
           <!-- <a href="https://facebook.com" target="_blank">
@@ -58,17 +58,133 @@
     </header>
 
     <main class="main">
-      <section class="hero-img">
-        <p>Hero with site name and call to action</p>
+      <div id="hero">
+        <div id="hero-box">
+          <figure class="hero">
+            <img
+              id="hero-img"
+              src="images/rsz_1pexels-tiger-lily-7109292.jpg"
+              alt="People enjoying rafting"
+            />
+            <figcaption></figcaption>
+          </figure>
+        </div>
+        <section id="hero-msg">
+          <h1 class="home-title">Welcome to The Access Chamber Of Commerce</h1>
+          <div class="button-box">
+            <a class="book" href="contactus.html">Join the Chamber</a>
+          </div>
+        </section>
+      </div>
+      <section class="e">
+        <h2>Grand Launching</h2>
+        <h3>Browntech Solutions</h3>
+        <p>
+          Join us for the grand launching of The Browntech Solutions Air
+          Conditioning Company, Wednesday by 2pm<span id="dots">...</span
+          ><span id="more"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Suspendisse venenatis dictum dolor vitae venenatis. Nam vel vehicula
+            libero.</span
+          >
+        </p>
+        <button onclick="myFunction()" id="myBtn">more info</button>
       </section>
-      <section class="e"><p>Event</p></section>
-      <section class="w"><p>Weather</p></section>
-      <section class="n"><p>News Release</p></section>
-      <section class="j"><p>Join</p></section>
+
+      <section class="w">
+        <h2 class="weather">Weather</h2>
+        <!-- the DIV that will contain the widget -->
+        <div class="weather1">
+          <div>
+            <img src="" alt="" id="weather-icon" />
+          </div>
+          <div>
+            <h3><span id="temperature"></span>&#176;F</h3>
+            <h3 id="condition"></h3>
+            <span>Wind speed: </span><span id="wind-speed"></span
+            ><span>mph</span><br /><span>Wind Chill:</span
+            ><span id="result"></span><span>&#176;F</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="n">
+        <h2>News Release</h2>
+        <p>
+          Lionel Messi won The Best FIFA men’s player prize for 2022 on Monday
+          on the back of his World Cup triumph with Argentina and Spain’s Alexia
+          Putellas retained the women’s award at a ceremony in Paris. It is the
+          second time that Messi has won the honour inaugurated by FIFA in 2016
+          after football’s world governing body split from Ballon d’Or
+          organizers France Football.
+        </p>
+        <!-- <p>
+          Nokia will pull out of the Russian market, the Finnish telecoms
+          provider said on Tuesday, a day after rival Ericsson decided to
+          suspend its activities in the country indefinitely. Nokia, which
+          stopped deliveries to the country in early March, “can now announce
+          that we will exit the Russian market,” the mobile telecoms giant said
+          in a statement.
+        </p>
+        <p>
+          The Peoples Democratic Party, the Labour Party and the African
+          Democratic Congress have asked the Chairman of the Independent
+          Electoral Commission, Mahmood Yakubu, to step aside. The three parties
+          in a joint press conference on Tuesday, in Abuja, alleged that the
+          February 2023 presidential and National Assembly elections were marred
+          with violence, rigging and intimidation of voters
+        </p> -->
+      </section>
+      <section class="j">
+        <a class="join" href="join.html">Join Us!</a>
+        <p>
+          We promotes trade in the state and strengthen business relationship
+          between members by bringing them up to speed with current business
+          trends. Network, and get easy access to key stakeholders and investors
+          via our numerous exhibitions, trade fairs, and seminars.
+        </p>
+      </section>
       <section class="spot">
-        <section class="sp1"><p>Spotlight 1</p></section>
-        <section class="sp2"><p>Spotlight 2</p></section>
-        <section class="sp3"><p>Spotlight 3</p></section>
+        <section class="sp1">
+          <h3>Miniso Store</h3>
+          <figure class="so">
+            <img src="images/miniso image.png" alt="logo" class="miniso" />
+          </figure>
+          <hr />
+          <p>Business location: Ikeja City Mall</p>
+          <p>Service options: In-store shopping</p>
+
+          <a href="http://www.miniso.com/" target="_blank"
+            >http://www.miniso.com/</a
+          >
+        </section>
+
+        <section class="sp2">
+          <h3>United Bank for Africa</h3>
+          <figure class="uba">
+            <img src="images/rsz_uba-logo.png" alt="UBA-logo" />
+          </figure>
+          <p>"Where ideas meets Global Opportunities!"</p>
+          <hr />
+          <a href="https://www.ubagroup.com/" target="_blank"
+            >https://www.ubagroup.com</a
+          >
+        </section>
+
+        <section class="sp3">
+          <h3>BYU-Pathway Worldwide</h3>
+          <figure class="pathway">
+            <img src="images/rsz_3pathway.png" alt="pathway-logo" />
+          </figure>
+          <p>
+            BYU-Pathway Worldwide provides access to spiritually based degrees
+            completely online at an affordable price.
+          </p>
+          <hr />
+          <a href="https://www.byupathway.org" target="_blank"
+            >https://www.byupathway.org</a
+          >
+        </section>
       </section>
     </main>
 
@@ -100,5 +216,6 @@
       </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
   </body>
 </html>
