@@ -1,4 +1,4 @@
-@media only screen and (min-width: 55rem) {
+@media only screen and (min-width: 50rem) {
   nav ul li a {
     padding: 1rem 2rem;
     color: var(--headline-color-on-color);

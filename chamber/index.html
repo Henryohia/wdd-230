@@ -61,10 +61,21 @@
       <div id="hero">
         <div id="hero-box">
           <figure class="hero">
+            <source
+              media="(min-width: 800px)"
+              srcset="images/wdd230-org-medium..jpg"
+            />
+            <source
+              media="(min-width: 600px)"
+              srcset="images/wdd230-org-large.jpg"
+            />
             <img
               id="hero-img"
-              src="images/rsz_1pexels-tiger-lily-7109292.jpg"
+              src="images/wdd230-org-small.jpg"
               alt="People enjoying rafting"
+              loading="lazy"
+              width="800"
+              height="auto"
             />
             <figcaption></figcaption>
           </figure>

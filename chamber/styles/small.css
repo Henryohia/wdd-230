@@ -146,6 +146,7 @@ nav ul li a {
 .main {
   display: block;
   grid-gap: 10px;
+  font-size: 1rem;
 }
 
 main section {
@@ -276,7 +277,7 @@ hr {
   text-align: center;
 }
 section .sp1 figure.so img {
-  width: 50%;
+  width: 40%;
 }
 section,
 section .sp1,
