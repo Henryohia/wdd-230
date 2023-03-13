@@ -24,7 +24,7 @@
       <div class="header">
         <div class="logo">
           <picture>
-            <img class="logo-img" src="images/rsz_1a.png" alt="logo" />
+            <img class="logo-img" src="images/rsz_1a(2).webp" alt="logo" />
           </picture>
           <div class="headings">
             <h1>Access Chamber</h1>
@@ -61,23 +61,23 @@
       <div id="hero">
         <div id="hero-box">
           <figure class="hero">
-            <source
+            <!-- <source
               media="(min-width: 800px)"
               srcset="images/wdd230-org-medium..jpg"
             />
             <source
               media="(min-width: 600px)"
               srcset="images/wdd230-org-large.jpg"
-            />
+            /> -->
             <img
               id="hero-img"
               src="images/wdd230-org-small.jpg"
-              alt="People enjoying rafting"
+              alt="business partners"
+              sizes="100vw"
               loading="lazy"
-              width="800"
-              height="auto"
+              srcset="images/wdd230-org-medium..jpg 800w
+              images/wdd230-org-large.jpg 600w"
             />
-            <figcaption></figcaption>
           </figure>
         </div>
         <section id="hero-msg">
@@ -112,6 +112,7 @@
           <div>
             <h3><span id="temperature"></span>&#176;F</h3>
             <h3 id="condition"></h3>
+            <br />
             <span>Wind speed: </span><span id="wind-speed"></span
             ><span>mph</span><br /><span>Wind Chill:</span
             ><span id="result"></span><span>&#176;F</span>
@@ -159,7 +160,7 @@
         <section class="sp1">
           <h3>Miniso Store</h3>
           <figure class="so">
-            <img src="images/miniso image.png" alt="logo" class="miniso" />
+            <img src="images/miniso-image.png" alt="logo" class="miniso" />
           </figure>
           <hr />
           <p>Business location: Ikeja City Mall</p>
@@ -200,7 +201,7 @@
     </main>
 
     <footer>
-      <img class="f-logo" src="images/rsz_1a.png" alt="logo" />
+      <img class="f-logo" src="images/rsz_1a(2).webp" alt="logo" />
       <div class="access">
         <h2>Access Chamber</h2>
         <p>#4 Jimoh Akinsaya Close</p>
