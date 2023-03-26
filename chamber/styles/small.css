@@ -373,10 +373,7 @@ main div.demo p {
 section.mosaic {
   display: none;
 }
-/* main div.img {
-  display: grid;
-  align-items: center;
-} */
+
 .hover {
   max-width: 490px;
 }

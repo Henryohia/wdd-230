@@ -129,9 +129,7 @@
   .lastModified {
     grid-row: 2;
   }
-  /* h3:after {
-    content: " \007C";
-  } */
+
   .sub-base p:after {
     content: " \007C";
   }
