@@ -241,4 +241,7 @@
   .pic div:nth-of-type(13) {
     grid-column: 3/5;
   }
+  form label.sbs {
+    padding: 0.4rem 0;
+  }
 }
