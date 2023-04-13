@@ -423,7 +423,7 @@ form label.sbs {
 
 form input.submitBtn {
   border: none;
-  background-color: #9c2c13;
+  background-color: #97139c;
   color: white;
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
@@ -450,4 +450,31 @@ form label.top input:required:valid {
 main {
   padding: 0 2%;
   min-height: 20rem;
+}
+
+/* ------------------- directory ------------- */
+
+main div.cards {
+  text-align: center;
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
+  display: block;
+}
+
+main div.cards section {
+  border: solid 2px tan;
+  background-color: var(--accent2-color);
+  height: auto;
+}
+
+main div.cards img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  padding: 2px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px 5px #6f7364;
+  width: 40%;
+}
+a {
+  text-decoration: underline;
 }

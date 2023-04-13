@@ -244,4 +244,13 @@
   form label.sbs {
     padding: 0.4rem 0;
   }
+
+  /* ---------- directory -------- */
+  main div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 0.8rem;
+    width: 95%;
+    grid-gap: 10px;
+  }
 }
