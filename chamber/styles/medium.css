@@ -152,5 +152,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 90%;
+    grid-gap: 10px;
   }
 }
